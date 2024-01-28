@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EB569222B230AB7000EB95C /* cooheeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB569212B230AB7000EB95C /* cooheeApp.swift */; };
+		9EB569242B230AB7000EB95C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB569232B230AB7000EB95C /* Persistence.swift */; };
+		9EB569272B230AB7000EB95C /* coohee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9EB569252B230AB7000EB95C /* coohee.xcdatamodeld */; };
+		9EB569292B230AB7000EB95C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB569282B230AB7000EB95C /* ContentView.swift */; };
+		9EB5692B2B230AB7000EB95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB5692A2B230AB7000EB95C /* Assets.xcassets */; };
+		9EB5692F2B230AB7000EB95C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB5692E2B230AB7000EB95C /* Preview Assets.xcassets */; };
+		9EB569392B230AB7000EB95C /* cooheeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB569382B230AB7000EB95C /* cooheeTests.swift */; };
+		9EB569432B230AB7000EB95C /* cooheeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB569422B230AB7000EB95C /* cooheeUITests.swift */; };
+		9EB569452B230AB7000EB95C /* cooheeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB569442B230AB7000EB95C /* cooheeUITestsLaunchTests.swift */; };
+		9EB569562B429776000EB95C /* gundam.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB569552B429776000EB95C /* gundam.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EB569352B230AB7000EB95C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EB569162B230AB7000EB95C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EB5691D2B230AB7000EB95C;
+			remoteInfo = coohee;
+		};
+		9EB5693F2B230AB7000EB95C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EB569162B230AB7000EB95C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EB5691D2B230AB7000EB95C;
+			remoteInfo = coohee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EB5691E2B230AB7000EB95C /* coohee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coohee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB569212B230AB7000EB95C /* cooheeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cooheeApp.swift; sourceTree = "<group>"; };
+		9EB569232B230AB7000EB95C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9EB569262B230AB7000EB95C /* coohee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coohee.xcdatamodel; sourceTree = "<group>"; };
+		9EB569282B230AB7000EB95C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9EB5692A2B230AB7000EB95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EB5692C2B230AB7000EB95C /* coohee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = coohee.entitlements; sourceTree = "<group>"; };
+		9EB5692E2B230AB7000EB95C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EB569342B230AB7000EB95C /* cooheeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cooheeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB569382B230AB7000EB95C /* cooheeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cooheeTests.swift; sourceTree = "<group>"; };
+		9EB5693E2B230AB7000EB95C /* cooheeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cooheeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB569422B230AB7000EB95C /* cooheeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cooheeUITests.swift; sourceTree = "<group>"; };
+		9EB569442B230AB7000EB95C /* cooheeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cooheeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9EB569552B429776000EB95C /* gundam.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gundam.jpeg; path = ../../../Downloads/gundam.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EB5691B2B230AB7000EB95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB569312B230AB7000EB95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB5693B2B230AB7000EB95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EB569152B230AB7000EB95C = {
+			isa = PBXGroup;
+			children = (
+				9EB569202B230AB7000EB95C /* coohee */,
+				9EB569372B230AB7000EB95C /* cooheeTests */,
+				9EB569412B230AB7000EB95C /* cooheeUITests */,
+				9EB5691F2B230AB7000EB95C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EB5691F2B230AB7000EB95C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EB5691E2B230AB7000EB95C /* coohee.app */,
+				9EB569342B230AB7000EB95C /* cooheeTests.xctest */,
+				9EB5693E2B230AB7000EB95C /* cooheeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EB569202B230AB7000EB95C /* coohee */ = {
+			isa = PBXGroup;
+			children = (
+				9EB569212B230AB7000EB95C /* cooheeApp.swift */,
+				9EB569232B230AB7000EB95C /* Persistence.swift */,
+				9EB569282B230AB7000EB95C /* ContentView.swift */,
+				9EB5692A2B230AB7000EB95C /* Assets.xcassets */,
+				9EB569552B429776000EB95C /* gundam.jpeg */,
+				9EB5692C2B230AB7000EB95C /* coohee.entitlements */,
+				9EB569252B230AB7000EB95C /* coohee.xcdatamodeld */,
+				9EB5692D2B230AB7000EB95C /* Preview Content */,
+			);
+			path = coohee;
+			sourceTree = "<group>";
+		};
+		9EB5692D2B230AB7000EB95C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9EB5692E2B230AB7000EB95C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EB569372B230AB7000EB95C /* cooheeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EB569382B230AB7000EB95C /* cooheeTests.swift */,
+			);
+			path = cooheeTests;
+			sourceTree = "<group>";
+		};
+		9EB569412B230AB7000EB95C /* cooheeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EB569422B230AB7000EB95C /* cooheeUITests.swift */,
+				9EB569442B230AB7000EB95C /* cooheeUITestsLaunchTests.swift */,
+			);
+			path = cooheeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EB5691D2B230AB7000EB95C /* coohee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB569482B230AB7000EB95C /* Build configuration list for PBXNativeTarget "coohee" */;
+			buildPhases = (
+				9EB5691A2B230AB7000EB95C /* Sources */,
+				9EB5691B2B230AB7000EB95C /* Frameworks */,
+				9EB5691C2B230AB7000EB95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coohee;
+			productName = coohee;
+			productReference = 9EB5691E2B230AB7000EB95C /* coohee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EB569332B230AB7000EB95C /* cooheeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB5694B2B230AB7000EB95C /* Build configuration list for PBXNativeTarget "cooheeTests" */;
+			buildPhases = (
+				9EB569302B230AB7000EB95C /* Sources */,
+				9EB569312B230AB7000EB95C /* Frameworks */,
+				9EB569322B230AB7000EB95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EB569362B230AB7000EB95C /* PBXTargetDependency */,
+			);
+			name = cooheeTests;
+			productName = cooheeTests;
+			productReference = 9EB569342B230AB7000EB95C /* cooheeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EB5693D2B230AB7000EB95C /* cooheeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB5694E2B230AB7000EB95C /* Build configuration list for PBXNativeTarget "cooheeUITests" */;
+			buildPhases = (
+				9EB5693A2B230AB7000EB95C /* Sources */,
+				9EB5693B2B230AB7000EB95C /* Frameworks */,
+				9EB5693C2B230AB7000EB95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EB569402B230AB7000EB95C /* PBXTargetDependency */,
+			);
+			name = cooheeUITests;
+			productName = cooheeUITests;
+			productReference = 9EB5693E2B230AB7000EB95C /* cooheeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EB569162B230AB7000EB95C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					9EB5691D2B230AB7000EB95C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					9EB569332B230AB7000EB95C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 9EB5691D2B230AB7000EB95C;
+					};
+					9EB5693D2B230AB7000EB95C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 9EB5691D2B230AB7000EB95C;
+					};
+				};
+			};
+			buildConfigurationList = 9EB569192B230AB7000EB95C /* Build configuration list for PBXProject "coohee" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EB569152B230AB7000EB95C;
+			productRefGroup = 9EB5691F2B230AB7000EB95C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EB5691D2B230AB7000EB95C /* coohee */,
+				9EB569332B230AB7000EB95C /* cooheeTests */,
+				9EB5693D2B230AB7000EB95C /* cooheeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EB5691C2B230AB7000EB95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB5692F2B230AB7000EB95C /* Preview Assets.xcassets in Resources */,
+				9EB5692B2B230AB7000EB95C /* Assets.xcassets in Resources */,
+				9EB569562B429776000EB95C /* gundam.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB569322B230AB7000EB95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB5693C2B230AB7000EB95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EB5691A2B230AB7000EB95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB569222B230AB7000EB95C /* cooheeApp.swift in Sources */,
+				9EB569242B230AB7000EB95C /* Persistence.swift in Sources */,
+				9EB569292B230AB7000EB95C /* ContentView.swift in Sources */,
+				9EB569272B230AB7000EB95C /* coohee.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB569302B230AB7000EB95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB569392B230AB7000EB95C /* cooheeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB5693A2B230AB7000EB95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB569432B230AB7000EB95C /* cooheeUITests.swift in Sources */,
+				9EB569452B230AB7000EB95C /* cooheeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EB569362B230AB7000EB95C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EB5691D2B230AB7000EB95C /* coohee */;
+			targetProxy = 9EB569352B230AB7000EB95C /* PBXContainerItemProxy */;
+		};
+		9EB569402B230AB7000EB95C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EB5691D2B230AB7000EB95C /* coohee */;
+			targetProxy = 9EB5693F2B230AB7000EB95C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9EB569462B230AB7000EB95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EB569472B230AB7000EB95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9EB569492B230AB7000EB95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = coohee/coohee.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"coohee/Preview Content\"";
+				DEVELOPMENT_TEAM = QZ2SGWSHUR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mycoohee.com.coohee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EB5694A2B230AB7000EB95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = coohee/coohee.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"coohee/Preview Content\"";
+				DEVELOPMENT_TEAM = QZ2SGWSHUR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mycoohee.com.coohee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9EB5694C2B230AB7000EB95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mycoohee.com.cooheeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coohee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coohee";
+			};
+			name = Debug;
+		};
+		9EB5694D2B230AB7000EB95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mycoohee.com.cooheeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coohee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coohee";
+			};
+			name = Release;
+		};
+		9EB5694F2B230AB7000EB95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mycoohee.com.cooheeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coohee;
+			};
+			name = Debug;
+		};
+		9EB569502B230AB7000EB95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mycoohee.com.cooheeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coohee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EB569192B230AB7000EB95C /* Build configuration list for PBXProject "coohee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB569462B230AB7000EB95C /* Debug */,
+				9EB569472B230AB7000EB95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB569482B230AB7000EB95C /* Build configuration list for PBXNativeTarget "coohee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB569492B230AB7000EB95C /* Debug */,
+				9EB5694A2B230AB7000EB95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB5694B2B230AB7000EB95C /* Build configuration list for PBXNativeTarget "cooheeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB5694C2B230AB7000EB95C /* Debug */,
+				9EB5694D2B230AB7000EB95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB5694E2B230AB7000EB95C /* Build configuration list for PBXNativeTarget "cooheeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB5694F2B230AB7000EB95C /* Debug */,
+				9EB569502B230AB7000EB95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9EB569252B230AB7000EB95C /* coohee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9EB569262B230AB7000EB95C /* coohee.xcdatamodel */,
+			);
+			currentVersion = 9EB569262B230AB7000EB95C /* coohee.xcdatamodel */;
+			path = coohee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9EB569162B230AB7000EB95C /* Project object */;
+}
